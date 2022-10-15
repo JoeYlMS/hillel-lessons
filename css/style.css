@@ -1,0 +1,40 @@
+.slider_test {
+  max-width: 800px;
+  margin: auto;
+}
+
+.slider_list {
+  overflow: hidden;
+}
+
+.slider_track {
+  white-space: nowrap;
+  transition: 2s all;
+}
+
+.slider_slide {
+  display: inline-block;
+  width: 100%;
+}
+
+.slider_slide div {
+  height: 200px;
+  background: aqua;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.slider_dots__slider_dot {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.slider_arrows {
+  cursor: pointer;
+}
+
+.slider_arrows__slider_left_arrows {
+  margin-right: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
